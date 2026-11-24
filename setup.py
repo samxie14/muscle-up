@@ -5,8 +5,8 @@ package_name = 'muscleup_update1'
 
 setup(
     name=package_name,
-    version='0.0.2',
-    packages=[package_name],
+    version='0.0.3',
+    packages=[package_name, 'muscleup_update2'],
     data_files=[
         ('share/ament_index/resource_index/packages', ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
@@ -18,11 +18,12 @@ setup(
     zip_safe=True,
     maintainer='Samuel Xie',
     maintainer_email='samuel@todo.todo',
-    description='ME 133a final project: G1 humanoid pull-up and typewriter on a bar',
+    description='ME 133a final project: G1 humanoid pull-up, typewriter, and muscle-up on a bar',
     license='TODO',
     entry_points={
         'console_scripts': [
             'typewriter = muscleup_update1.typewriter:main',
+            'muscleup   = muscleup_update2.muscleup:main',
         ],
     },
 )

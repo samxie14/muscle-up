@@ -2,8 +2,8 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>muscleup_update1</name>
-  <version>0.0.2</version>
-  <description>ME 133a final project: G1 humanoid pull-up and typewriter on a bar</description>
+  <version>0.0.3</version>
+  <description>ME 133a final project: G1 humanoid pull-up, typewriter, and muscle-up on a bar</description>
   <maintainer email="samuel@todo.todo">Samuel Xie</maintainer>
   <license>TODO</license>
 
